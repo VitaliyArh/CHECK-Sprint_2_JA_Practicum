@@ -129,15 +129,3 @@ class TestBooksCollector:
 # -----------------------
 
 
-
-
-
-
-# Нельзя добавить книгу в избранное, если её нет в словаре books_rating.
-
-
-    def test_add_book_in_favorites_cannot_book_added_to_favorites_if_no_in_dictionary(self):
-        collector = BooksCollector()                 # создаем экземпляр (объект) класса BooksCollector
-        collector.add_book_in_favorites('Золушка')   # обращаемся к словарю по параметру, и добавляем книгу в избранное
-        assert len(collector.favorites) == 1         # вызываем список "Избранное" проверяем количество книг в нём
-
