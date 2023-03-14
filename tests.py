@@ -24,6 +24,8 @@ class TestBooksCollector:
     # чтобы тесты были независимыми в каждом из них создавай отдельный экземпляр класса BooksCollector()
 
 
+    
+# МОИ ТЕСТЫ НАЧИНАЮТСЯ ОТСЮДА
 
 
     def test_init_books_rating_empty_dict_true(self):
